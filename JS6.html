@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>game</title>
+</head>
+<body>
+<script>
+let number1 = parseFloat(prompt("Введіть перше число в межах від 0 до 1:"));
+let number2 = parseFloat(prompt("Введіть друге число в межах від 0 до 1:"));
+
+if (number1 >= 0 && number1 <= 1 && number2 >= 0 && number2 <= 1) {
+  let result = (number1 * 10 + number2 * 10) / 10;
+  alert(result) // додавання чисел з урахуванням дробової частини 
+} else {
+alert("Будь ласка, введіть числа в межах від 0 до 1.");
+}
+</script>
+</body>
+</html>
